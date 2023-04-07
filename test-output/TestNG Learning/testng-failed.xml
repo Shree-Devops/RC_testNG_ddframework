@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Learning]">
+  <test name="RegisterUsers test(failed)" preserve-order="true">
+    <classes>
+      <class name="dd_tests.loginTest">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class>
+      <class name="dd_tests.registerUserTest">
+        <methods>
+          <include name="userRegisteration"/>
+          <include name="stopServer"/>
+          <include name="init"/>
+          <include name="isSkip"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

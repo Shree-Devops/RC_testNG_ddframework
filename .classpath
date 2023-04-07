@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/ant-apache-log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/jtds-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/logging-selenium-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/mysql-connector-java-5.0.7-bin(2).jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/poi-ooxml-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/poi-ooxml-schemas-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/selenium-java-2.0rc3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/selenium-java-2.0rc3-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/selenium-server-standalone-2.0rc3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/testng-xslt-maven-plugin-test-0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium2.0/app/test/Framework/AutomationBvt_Hybrid/lib/xstream-1.3.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

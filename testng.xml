@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+
+
+
+
+<test name="selenium test">
+    <classes>
+        <class name="dd_core.testCore" ></class>  
+    </classes>
+</test>
+
+
+<test name="Login test">
+    <classes>
+        <class name="dd_tests.loginTest" ></class>  
+    </classes>
+</test>
+
+
+<test name="RegisterUsers test">
+    <classes>
+        <class name="dd_tests.registerUserTest" ></class>  
+    </classes>
+</test>
+</suite>

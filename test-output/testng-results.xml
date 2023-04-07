@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Learning" duration-ms="15086" started-at="2012-06-22T13:18:54Z" finished-at="2012-06-22T13:19:09Z">
+    <groups>
+    </groups>
+    <test name="RegisterUsers test" duration-ms="12" started-at="2012-06-22T13:19:09Z" finished-at="2012-06-22T13:19:09Z">
+      <class name="dd_tests.registerUserTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:dd_tests.registerUserTest@91cee]" name="init" is-config="true" duration-ms="20295" started-at="2012-06-22T13:18:33Z" finished-at="2012-06-22T13:18:54Z">
+        </test-method>
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_tests.registerUserTest@91cee]" name="isSkip" is-config="true" duration-ms="0" started-at="2012-06-22T13:19:09Z" finished-at="2012-06-22T13:19:09Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test as runmode set to No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test as runmode set to No
+	at dd_tests.registerUserTest.isSkip(registerUserTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:543)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:212)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:637)
+	at org.testng.TestRunner.run(TestRunner.java:605)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+	at org.testng.TestNG.run(TestNG.java:979)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:109)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:202)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:173)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="SKIP" signature="userRegisteration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dd_tests.registerUserTest@91cee]" name="userRegisteration" duration-ms="1" started-at="2012-06-22T13:19:09Z" finished-at="2012-06-22T13:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1984.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ramanselenium123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[raman@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[raman@123]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[seleniumcoaching@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[9.999994994E9]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="FAIL" signature="stopServer()[pri:0, instance:dd_tests.registerUserTest@91cee]" name="stopServer" is-config="true" duration-ms="0" started-at="2012-06-22T13:19:09Z" finished-at="2012-06-22T13:19:09Z">
+          <exception class="javax.mail.MessagingException">
+            <message>
+              <![CDATA[Could not connect to SMTP host: smtp.gmail.com, port: 25]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[javax.mail.MessagingException: Could not connect to SMTP host: smtp.gmail.com, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1706)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:525)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at dd_util.SendMailUsingAuthentication.postMail(SendMailUsingAuthentication.java:93)
+	at dd_core.testCore.stopServer(testCore.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:543)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:212)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1142)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1067)
+	at org.testng.TestNG.run(TestNG.java:979)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:109)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:202)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:173)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:284)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:227)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1672)
+	... 26 more
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+    <test name="Login test" duration-ms="14861" started-at="2012-06-22T13:18:54Z" finished-at="2012-06-22T13:19:09Z">
+      <class name="dd_tests.loginTest">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:dd_tests.loginTest@1ccce3c]" name="isSkip" is-config="true" duration-ms="218" started-at="2012-06-22T13:18:54Z" finished-at="2012-06-22T13:18:54Z">
+        </test-method>
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:dd_tests.loginTest@1ccce3c]" name="doLogin" duration-ms="14466" started-at="2012-06-22T13:18:54Z" finished-at="2012-06-22T13:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+    <test name="selenium test" duration-ms="38" started-at="2012-06-22T13:18:54Z" finished-at="2012-06-22T13:18:54Z">
+    </test>
+  </suite>
+</testng-results>
